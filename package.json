@@ -3,12 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "formik": "^2.1.4",
+    "is-json": "^2.0.1",
+    "material-ui": "^0.20.2",
+    "mdbreact": "^4.25.2",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.4.0"
+    "react-js-snackbar": "^1.0.4",
+    "react-scripts": "3.4.0",
+    "reactstrap": "^8.4.1",
+    "tabs": "^0.2.0",
+    "yup": "^0.28.1"
   },
   "scripts": {
     "start": "react-scripts start",

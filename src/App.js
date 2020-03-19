@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* global chrome */
+
+import React from "react";
+import HomePage from "./HomePage";
+import "./App.css";
+import { KeywordStore } from "./store";
+import Navbar from "react-bootstrap/Navbar";
+import logo from './scraperly.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{textAlign:'center'}} className="App">
+      <Navbar bg="primary" expand="lg" variant="dark">
+        <Navbar.Brand href="https://www.scraperly.io/"><img src={logo} style={{width:'6%',position:'fixed'}} /></Navbar.Brand>
+      </Navbar>
+      <HomePage   />
     </div>
   );
 }
-
 export default App;
